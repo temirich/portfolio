@@ -1,10 +1,19 @@
 import React from 'react'
+import styled from 'styled-components'
+import CardForecast from './components/cardsForecast/cardsForecast'
+import TitleForecast from './components/titleForecast/titleForecast'
+
+const AppStyle = styled.div`
+  text-align: center;
+  background: blue;
+`
 
 function App () {
   return (
-    <div>
-      <h1>Hello!</h1>
-    </div>
+    <AppStyle>
+      <TitleForecast />
+      <CardForecast />
+    </AppStyle>
   )
 }
 
