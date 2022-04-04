@@ -6,5 +6,5 @@ export const RightCardForecastStyle = styled.div`
   background: #FFFFFF;
   box-shadow: 14px 14px 20px 0px #05067233;
   box-shadow: 0px 4px 4px 0px #04054940;
-  margin-right: 17px;
+  margin-left: 17px;
  `

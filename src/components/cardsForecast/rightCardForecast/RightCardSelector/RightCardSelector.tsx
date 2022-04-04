@@ -6,8 +6,8 @@ function RightCardSelector () {
     <RightCardSelectorStyle>
       <select>
       </select>
-      <select>
-      </select>
+      <input type="date" min="2022-04-01" max="2022-04-03">
+      </input>
     </RightCardSelectorStyle>
   )
 }

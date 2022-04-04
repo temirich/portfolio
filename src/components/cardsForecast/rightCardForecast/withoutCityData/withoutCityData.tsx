@@ -9,11 +9,12 @@ const WithoutCityDataStyle = styled.div`
   display: block;
 `
 const WithoutCityDataImgStyle = styled.div`
-  img {border: 1px dashed #8083A4;}
-  
+  text-align: center;
 `
 const WithoutCityDataTextStyle = styled.div`
   margin-top: 30px;
+  text-align: center;
+
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 700;

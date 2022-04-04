@@ -1,28 +1,33 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const WeatherForecast = styled.div`
-  margin: 0 auto;
-  display: block;
-  margin-top: 65px;
+const WeatherForecast = styled.section`
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 700;
-  color: #000000;
+  color: #ffffff;
+  padding-top: 65px;
+  width: 775px;
+  height: 212px;
+  margin: 0 auto;
+  margin-bottom: 60px;
   h1 {
-    margin: 0 auto;
+
     font-size: 102px;
     line-height: 122px;
     font-weight: 700;
+  }
+  #secondHeader{
+    padding-left: 369px;
   }
  `
 
 function TitleForecast () {
   return (
-    <WeatherForecast>
-      <h1>Weather</h1>
-      <h1 id="1">forecast</h1>
-    </WeatherForecast>
+      <WeatherForecast>
+        <h1>Weather</h1>
+        <h1 id="secondHeader">forecast</h1>
+      </WeatherForecast>
   )
 }
 

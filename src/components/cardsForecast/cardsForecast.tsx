@@ -5,10 +5,10 @@ import RightCardForecast from './rightCardForecast/rightCardForcast'
 
 function CardForecast () {
   return (
-    <CardsForecast>
-      <LeftCardForecast />
-      <RightCardForecast />
-    </CardsForecast>
+      <CardsForecast>
+        <LeftCardForecast />
+        <RightCardForecast />
+      </CardsForecast>
   )
 }
 
